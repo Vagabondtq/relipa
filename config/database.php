@@ -7,7 +7,7 @@ return [
             'port'      => '3306',
             'database'  => 'relipa',
             'username'  => 'root',
-            'password'  => '',
+            'password'  => 'thaison123@',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
