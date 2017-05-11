@@ -8,4 +8,8 @@ use App\Helper\Routing\BaseController;
 class Controller extends BaseController
 {
 
+    public function view()
+    {
+    }
+
 }

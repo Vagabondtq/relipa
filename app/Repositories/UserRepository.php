@@ -1,10 +1,11 @@
 <?php
 
-
 namespace App\Repositories;
 
 
-class UserRepository extends Repository
-{
+use App\Repositories\Contracts\AbsRepository;
 
+class UserRepository extends AbsRepository
+{
+    protected $table = 'users';
 }
